@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(photo/Background.jpg);
+    background-size: cover;
+    font-family: 'Roboto Mono', monospace;
+}
+
+/* HEADER START */
+header {
+    width: 80%;
+    height: 100px;
+    margin: auto;
+    border-bottom: 3px solid #fff;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+header nav .Logo a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    column-gap: 50px;
+}
+
+header nav ul a {
+    text-decoration: none;
+    font-weight: 700;
+    color: #fff;
+    transition: color .25s ease;
+}
+
+header nav ul a:hover {
+    color: black;
+}
+
+header nav .button a {
+    text-decoration: none;
+    font-weight: 700;
+    background-color: #FFF;
+    color: black;
+    padding: 12px 24px;
+    border-radius: 56px;
+    transition: all .5s ease;
+}
+
+header nav .button a:hover {
+    background-color: black;
+    color: #FFF;
+}
+
+/* HEADER END */
+/* SECTİON START */
+section {
+    background-color: #fff;
+    margin-top: 20px;
+    margin-left: 152px;
+    width: 80%;
+    height: auto;
+    padding-top: 20px;
+    border-radius: .5%;
+}
+
+section .photo-text1 {
+    display: flex;
+}
+
+section .photo-text1 img {
+    width: 45%;
+    height: auto;
+    margin-left: 20px;
+    border-radius: 50%;
+}
+
+section .photo-text1 p {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 100px;
+    font-weight: 700;
+    line-height: 30px;
+    text-indent: 15px;
+    text-shadow: 10px 0 30px red;
+}
+
+/* SECTİON END */
+/* CONTACT START */
+.contact{
+    background-color: #fff;
+    margin-top: 20px;
+    margin-left: 152px;
+    width: 80%;
+    height: auto;
+    border-radius: .5%;
+    color: black;
+}
+.contact h2{
+    font-size: 48px;
+    text-shadow: 10px 0 30px red;
+    text-align: center;
+    font-weight: 700;
+}
+.contact #contact-form{
+    text-align: center;
+    margin-top: 40px;
+    width: 70%;
+    margin: 0 auto;
+}
+.form-group {
+    border-bottom: 1px solid black;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+}
+
+.form-group input, .form-group textarea {
+    border: none;
+    width: 100%;
+    display: block;
+    font-size: 30px;
+    text-shadow: 10px 0 30px red;
+}
+
+.form-group input:focus {
+    outline: 0;
+}
+
+.form-group textarea:focus {
+    outline: 0;
+}
+.contact #contact-form button{
+    text-shadow: 10px 0 30px red;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 48px;
+
+}
+/* CONTACT END */
